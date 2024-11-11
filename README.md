@@ -13,7 +13,7 @@ A React-based ecommerce application for browsing products, viewing product detai
 
 ## 🚀 Demo
 
-Check out the live demo: **[Ecommerce App Demo](https://your-live-demo-link.com)**
+Check out the live demo: **[Ecommerce App Demo](https://puny-ecommerce.netlify.app/)**
 
 ## ✨ Features
 
