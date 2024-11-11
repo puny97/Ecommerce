@@ -1,0 +1,38 @@
+.header{
+    background-color: #151a1f;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.header h1 {
+margin: 0;
+}
+
+.cart-button {
+    background-color: #fff;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.cart-value {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: red;
+    position: absolute;
+    right: 75px;
+    top: 15px;
+    color: white;
+    font-size: 20px;/
+}

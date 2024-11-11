@@ -1,0 +1,108 @@
+.product-grid {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.product {
+    height: 350px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.product button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.product button:hover {
+background-color: #0069d9;
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product h2 {
+    margin-top: 10px;
+    margin-bottom: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.price {
+    background-color: #f44336;
+    color: #fff;
+    font-size: 15px;
+    padding: 4px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.sort-filter-container {
+    margin: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filter {
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.filter select {
+    padding: 5px 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.sort {
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sort select {
+    padding: 5px 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+.sort button {
+    background-color: #fff;
+    color: #000000;
+    padding: 10px 20px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.sort button:hover {
+    background-color: #f44336;
+    color: #fff;
+}
