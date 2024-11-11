@@ -40,3 +40,15 @@
     align-items: center;
     gap: 12px;
 }
+
+@media (max-width: 480px) {
+    .cart-item-container {
+        font-size: 12px;
+    }
+    .cart-item-container img{
+        width: 45px;
+    }
+    .total {
+        font-size: 12px;
+    }
+}
