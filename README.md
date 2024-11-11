@@ -43,12 +43,14 @@ Check out the live demo: **[Ecommerce App Demo](https://puny-ecommerce.netlify.a
    git clone https://github.com/username/ecommerce.git
    cd ecommerce
 
-2. **Install the Dependencies**                                       
+2. **Install the Dependencies**
+                                      
    npm install                                               
    npm install react-router-dom                                          
    npm install axios                                          
 
-3. **Run the Development Server**
+4. **Run the Development Server**
+   
    npm run dev
 
 ## 🏁 Available Scripts
