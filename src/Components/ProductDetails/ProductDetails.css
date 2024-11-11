@@ -57,3 +57,14 @@
     border: none;
     cursor: pointer;
 }
+
+@media (max-width: 480px) {
+    .product-details-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .product-info {
+        margin: 30px;
+    }
+}
